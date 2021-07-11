@@ -1,0 +1,32 @@
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background: #f1e6e6;
+
+    
+    .logo{
+        align-self: center;
+        padding-left: 5em;
+    }
+
+    ul{
+        list-style: none;
+        display: flex;
+        /* background-color: aquamarine; */
+        justify-content: flex-end;
+        margin: 0;
+        padding: 1em 0;
+    }
+        
+    
+    li{
+        padding: 0 1em;
+    &:hover{
+        background-color: rgb(32, 30, 30);
+        color: #f1e6e6;
+        cursor: pointer;
+    }  
+    }
+    
+}
