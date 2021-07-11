@@ -1,0 +1,34 @@
+
+
+.card{
+    display: flex;
+    justify-content: center;
+    width: 75%;
+    box-shadow: 1px 5px 10px 0 #c7bcbc;
+    transition: .3s;
+    position: relative;
+    background-color: #fff;
+    top: -38px;
+    text-align: center;
+    margin: 1em auto;
+    padding: 1em;
+
+   div{
+       display: flex;
+       flex-direction: column;
+       flex: 1 1 0;
+       padding: 1em;
+       border-right: 2px solid orangered;
+       a{
+           text-decoration: none;
+       }
+
+       i{
+            font-size: 100px;
+            align-self: center;
+       }
+   }
+   .last-chaild{
+       border: none;
+   }
+}

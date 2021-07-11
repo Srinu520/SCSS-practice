@@ -1,0 +1,24 @@
+------> Selector
+
+inline,
+id,       
+class,
+type,   important
+
+preferences
+  inline style,
+  id,
+  class,
+  type 
+
+
+special 
+  
+  Pseudo-classes
+  Pseudo-elements
+
+layout
+  
+  flex,
+  grid,
+ 

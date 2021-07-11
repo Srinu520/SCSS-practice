@@ -1,0 +1,43 @@
+.trac-history{
+    height: 30vh;
+    background-color: rgb(24, 20, 20);
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+    div{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        //margin: 1em;
+        span{
+            display: flex;
+        }
+       
+
+        div{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            
+            
+            p{
+                margin: 0;
+            }
+        }
+        
+        
+    }
+    .icon{
+        font-size: 2em;
+        margin-right: .5em;
+    }
+    .locations{
+        border: 1px solid #fff;
+        display: flex;
+        flex-direction: row;
+        padding: 10px;
+    }
+    
+}

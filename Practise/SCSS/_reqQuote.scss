@@ -1,0 +1,54 @@
+
+
+.request-quote{
+    padding: 1em;
+    display: flex;
+    img{
+        width: 100%;
+    }
+    div{
+        display: flex;
+    }
+
+    #reqQuoteForm{
+        
+        padding: 0;
+        section{
+            margin: 1em 0;
+            
+        }
+        select{
+            height: 2em;
+            border: 1px solid lightblue;
+        }
+        
+        .name-and-email{
+            margin: 1em 0;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-column-gap: 1em;
+            input{
+                margin: 1em 0;
+                /* display: grid; */
+                /* grid-template-columns: 1fr 1fr; */
+                border: 1px solid lightblue;
+                height: 2em;
+                width: 100%;
+            }
+        }
+        #serviceType{
+            display: grid;
+        }
+        #location{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            
+            select{
+                width: 49%;
+                
+            }
+        }
+        
+    }
+}
